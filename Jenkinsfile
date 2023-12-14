@@ -3,7 +3,14 @@ node {
     stage('Clone') {
         
         git credentialsId: 'jenkins', url: 'git@gitlab.com:iset-kairouan/projet_j2ee.git'
-    
+
+
+
+
+
+
+
+        
     }
     
     stage('Build') {
